@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+}
+/* font-family: 'Courgette', cursive; */
+
+header {
+  background-color: WhiteSmoke;
+  height: 90px;
+  font-size: 30px;
+  font-family: 'Courgette', cursive;
+}
+header h1 {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 90px;
+}
+
+main {
+  /* background-image: url('background.jpg'); */
+  position: relative;
+  width: 100%;
+  height: 500px;
+}
+main img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+main .user-form,
+main .user-table {
+  position: absolute;
+  background-color: rgba(211, 211, 211, 0.548);
+  padding: 30px;
+}
+.user-form {
+  top: 100px;
+  left: 100px;
+  width: 400px;
+  position: relative;
+  height: 300px;
+  /* padding: 30px 200px !important; */
+}
+.user-form form {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.user-table {
+  top: 100px;
+  right: 100px;
+}
+
+input,
+select {
+  border-radius: 20px;
+  width: 250px;
+  height: 30px;
+  display: block;
+  margin-bottom: 20px;
+}
+select {
+  margin-bottom: 30px;
+}
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-family: 'Courgette', cursive;
+  font-size: 20px;
+  position: relative;
+  left: 40%;
+  /* transform: translateX(-50%); */
+}
+input[type='submit'] {
+  background-color: rgb(39, 39, 39);
+  color: white;
+  font-size: 18px;
+  border: none;
+}
+.user-table table {
+  border-collapse: collapse;
+  font-family: 'Courgette', cursive;
+  color: white;
+}
+.user-table table td,
+th {
+  border: solid 2px white;
+  height: 40px;
+  text-align: center;
+  padding: 5px;
+  vertical-align: middle;
+}
+.user-table table tr {
+  background-color: rgb(78, 78, 78);
+}
+.user-table table tr:first-child {
+  background-color: rgb(39, 39, 39);
+}
+footer {
+  text-align: center;
+  font-family: 'Courgette', cursive;
+  height: 90px;
+  background-color: whitesmoke;
+  font-size: 20px;
+}
+footer p {
+  vertical-align: middle;
+  line-height: 90px;
+}
